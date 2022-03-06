@@ -23,7 +23,7 @@ const useCocktails = (keyword: string) => {
 
 function App() {
   const [search, setSearch] = useState("");
-  const [favourites, setFavourites] = useState({});
+  const [favourites, setFavourites] = useState<Record<string, any>>({});
   const data = useCocktails(search);
   return (
     <main>
