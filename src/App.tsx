@@ -1,8 +1,5 @@
 import { useEffect, useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import { Icon } from "@mdi/react";
-import { mdiCardsHeartOutline, mdiCardsHeart } from "@mdi/js";
 import { DrinkCard } from "./components/DrinkCard";
 import { useLocalStorage } from "./hooks/useLocalStorage";
 const useCocktails = (keyword: string) => {
