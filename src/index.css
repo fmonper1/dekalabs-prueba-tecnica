@@ -19,3 +19,11 @@ code {
 input {
   @apply border rounded p-1 px-2;
 }
+
+h2 {
+  @apply text-2xl;
+}
+
+h3 {
+  @apply text-xl;
+}
